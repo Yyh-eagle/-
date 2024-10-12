@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/learning_interface/learning_interface.egg-info/PKG-INFO
+../../build/learning_interface/learning_interface.egg-info/SOURCES.txt
+../../build/learning_interface/learning_interface.egg-info/dependency_links.txt
+../../build/learning_interface/learning_interface.egg-info/requires.txt
+../../build/learning_interface/learning_interface.egg-info/top_level.txt
+../../build/learning_interface/learning_interface.egg-info/zip-safe
+learning_interface/__init__.py
+resource/learning_interface
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

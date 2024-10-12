@@ -1,0 +1,32 @@
+[2.802s] Invoking command in '/home/yyh/ros2_ws/src/learning_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gongchuang) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yyh/ros2_ws/build/learning_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_interface build --build-base /home/yyh/ros2_ws/build/learning_interface/build install --record /home/yyh/ros2_ws/build/learning_interface/install.log --single-version-externally-managed install_data
+[3.391s] running egg_info
+[3.392s] creating ../../build/learning_interface/learning_interface.egg-info
+[3.423s] writing ../../build/learning_interface/learning_interface.egg-info/PKG-INFO
+[3.424s] writing dependency_links to ../../build/learning_interface/learning_interface.egg-info/dependency_links.txt
+[3.424s] writing requirements to ../../build/learning_interface/learning_interface.egg-info/requires.txt
+[3.424s] writing top-level names to ../../build/learning_interface/learning_interface.egg-info/top_level.txt
+[3.424s] writing manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+[3.498s] reading manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+[3.499s] writing manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+[3.499s] running build
+[3.499s] running build_py
+[3.499s] creating /home/yyh/ros2_ws/build/learning_interface/build
+[3.499s] creating /home/yyh/ros2_ws/build/learning_interface/build/lib
+[3.499s] creating /home/yyh/ros2_ws/build/learning_interface/build/lib/learning_interface
+[3.500s] copying learning_interface/__init__.py -> /home/yyh/ros2_ws/build/learning_interface/build/lib/learning_interface
+[3.500s] running install
+[3.512s] running install_lib
+[3.547s] creating /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface
+[3.547s] copying /home/yyh/ros2_ws/build/learning_interface/build/lib/learning_interface/__init__.py -> /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface
+[3.547s] byte-compiling /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface/__init__.py to __init__.cpython-312.pyc
+[3.552s] running install_data
+[3.552s] creating /home/yyh/ros2_ws/install/learning_interface/share/ament_index
+[3.552s] creating /home/yyh/ros2_ws/install/learning_interface/share/ament_index/resource_index
+[3.552s] creating /home/yyh/ros2_ws/install/learning_interface/share/ament_index/resource_index/packages
+[3.553s] copying resource/learning_interface -> /home/yyh/ros2_ws/install/learning_interface/share/ament_index/resource_index/packages
+[3.553s] copying package.xml -> /home/yyh/ros2_ws/install/learning_interface/share/learning_interface
+[3.553s] running install_egg_info
+[3.591s] Copying ../../build/learning_interface/learning_interface.egg-info to /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface-0.0.0-py3.12.egg-info
+[3.592s] running install_scripts
+[3.896s] writing list of installed files to '/home/yyh/ros2_ws/build/learning_interface/install.log'
+[4.115s] Invoked command in '/home/yyh/ros2_ws/src/learning_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gongchuang) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yyh/ros2_ws/build/learning_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_interface build --build-base /home/yyh/ros2_ws/build/learning_interface/build install --record /home/yyh/ros2_ws/build/learning_interface/install.log --single-version-externally-managed install_data

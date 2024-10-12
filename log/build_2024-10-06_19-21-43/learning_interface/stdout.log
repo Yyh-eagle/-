@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/learning_interface/learning_interface.egg-info
+writing ../../build/learning_interface/learning_interface.egg-info/PKG-INFO
+writing dependency_links to ../../build/learning_interface/learning_interface.egg-info/dependency_links.txt
+writing requirements to ../../build/learning_interface/learning_interface.egg-info/requires.txt
+writing top-level names to ../../build/learning_interface/learning_interface.egg-info/top_level.txt
+writing manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+reading manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+writing manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yyh/ros2_ws/build/learning_interface/build
+creating /home/yyh/ros2_ws/build/learning_interface/build/lib
+creating /home/yyh/ros2_ws/build/learning_interface/build/lib/learning_interface
+copying learning_interface/__init__.py -> /home/yyh/ros2_ws/build/learning_interface/build/lib/learning_interface
+running install
+running install_lib
+creating /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface
+copying /home/yyh/ros2_ws/build/learning_interface/build/lib/learning_interface/__init__.py -> /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface
+byte-compiling /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/yyh/ros2_ws/install/learning_interface/share/ament_index
+creating /home/yyh/ros2_ws/install/learning_interface/share/ament_index/resource_index
+creating /home/yyh/ros2_ws/install/learning_interface/share/ament_index/resource_index/packages
+copying resource/learning_interface -> /home/yyh/ros2_ws/install/learning_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/yyh/ros2_ws/install/learning_interface/share/learning_interface
+running install_egg_info
+Copying ../../build/learning_interface/learning_interface.egg-info to /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yyh/ros2_ws/build/learning_interface/install.log'

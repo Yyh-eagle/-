@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000585] (yyh_nav) JobQueued: {'identifier': 'yyh_nav', 'dependencies': OrderedDict()}
+[0.000671] (yyh_object) JobQueued: {'identifier': 'yyh_object', 'dependencies': OrderedDict()}
+[0.001898] (yyh_nav) JobStarted: {'identifier': 'yyh_nav'}
+[0.026348] (yyh_object) JobStarted: {'identifier': 'yyh_object'}
+[0.099699] (-) TimerEvent: {}
+[0.200272] (-) TimerEvent: {}
+[0.300670] (-) TimerEvent: {}
+[0.401259] (-) TimerEvent: {}
+[0.502877] (-) TimerEvent: {}
+[0.604470] (-) TimerEvent: {}
+[0.704897] (-) TimerEvent: {}
+[0.805485] (-) TimerEvent: {}
+[0.906072] (-) TimerEvent: {}
+[1.006588] (-) TimerEvent: {}
+[1.107129] (-) TimerEvent: {}
+[1.207668] (-) TimerEvent: {}
+[1.308004] (-) TimerEvent: {}
+[1.408579] (-) TimerEvent: {}
+[1.509169] (-) TimerEvent: {}
+[1.609731] (-) TimerEvent: {}
+[1.710440] (-) TimerEvent: {}
+[1.814344] (-) TimerEvent: {}
+[1.915339] (-) TimerEvent: {}
+[2.019132] (-) TimerEvent: {}
+[2.119661] (-) TimerEvent: {}
+[2.220426] (-) TimerEvent: {}
+[2.275175] (yyh_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yyh_nav', 'build', '--build-base', '/home/yyh/ros2_ws/build/yyh_nav/build', 'install', '--record', '/home/yyh/ros2_ws/build/yyh_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yyh/ros2_ws/src/yyh_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'yyh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yyh', 'OLDPWD': '/home/yyh/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(gongchuang) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '35255', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yyh/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yyh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yyh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/yyh/gongchuang/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yyh-desktop:@/tmp/.ICE-unix/35052,unix/yyh-desktop:/tmp/.ICE-unix/35052', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f0de22ae_2ae1_4120_9830_fee4301d3a6a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(gongchuang)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.EHR9U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.184', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yyh/ros2_ws/install/yyh_object:/home/yyh/ros2_ws/install/yyh_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/yyh/gongchuang', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yyh/ros2_ws/build/yyh_nav', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yyh/ros2_ws/build/yyh_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.320579] (-) TimerEvent: {}
+[2.381875] (yyh_object) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yyh_object', 'build', '--build-base', '/home/yyh/ros2_ws/build/yyh_object/build', 'install', '--record', '/home/yyh/ros2_ws/build/yyh_object/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yyh/ros2_ws/src/yyh_object', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh', 'USER': 'yyh', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yyh', 'OLDPWD': '/home/yyh/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(gongchuang) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'SYSTEMD_EXEC_PID': '35255', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/yyh/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yyh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yyh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/yyh/gongchuang/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yyh-desktop:@/tmp/.ICE-unix/35052,unix/yyh-desktop:/tmp/.ICE-unix/35052', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f0de22ae_2ae1_4120_9830_fee4301d3a6a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'VIRTUAL_ENV_PROMPT': '(gongchuang)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.EHR9U2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.184', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yyh/ros2_ws/install/yyh_object:/home/yyh/ros2_ws/install/yyh_nav:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/yyh/gongchuang', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yyh/ros2_ws/build/yyh_object', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yyh/ros2_ws/build/yyh_object/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages:/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.420753] (-) TimerEvent: {}
+[2.521420] (-) TimerEvent: {}
+[2.622053] (-) TimerEvent: {}
+[2.722549] (-) TimerEvent: {}
+[2.799568] (yyh_nav) StdoutLine: {'line': b'running egg_info\n'}
+[2.822657] (-) TimerEvent: {}
+[2.830271] (yyh_nav) StdoutLine: {'line': b'writing ../../build/yyh_nav/yyh_nav.egg-info/PKG-INFO\n'}
+[2.832954] (yyh_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/yyh_nav/yyh_nav.egg-info/dependency_links.txt\n'}
+[2.833190] (yyh_nav) StdoutLine: {'line': b'writing requirements to ../../build/yyh_nav/yyh_nav.egg-info/requires.txt\n'}
+[2.833291] (yyh_nav) StdoutLine: {'line': b'writing top-level names to ../../build/yyh_nav/yyh_nav.egg-info/top_level.txt\n'}
+[2.878402] (yyh_object) StdoutLine: {'line': b'running egg_info\n'}
+[2.890032] (yyh_nav) StdoutLine: {'line': b"reading manifest file '../../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'\n"}
+[2.891853] (yyh_nav) StdoutLine: {'line': b"writing manifest file '../../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'\n"}
+[2.892372] (yyh_nav) StdoutLine: {'line': b'running build\n'}
+[2.892951] (yyh_nav) StdoutLine: {'line': b'running build_py\n'}
+[2.893222] (yyh_nav) StdoutLine: {'line': b'copying yyh_nav/__init__.py -> /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav\n'}
+[2.893760] (yyh_nav) StdoutLine: {'line': b'running install\n'}
+[2.906556] (yyh_nav) StdoutLine: {'line': b'running install_lib\n'}
+[2.912131] (yyh_object) StdoutLine: {'line': b'writing ../../build/yyh_object/yyh_object.egg-info/PKG-INFO\n'}
+[2.912610] (yyh_object) StdoutLine: {'line': b'writing dependency_links to ../../build/yyh_object/yyh_object.egg-info/dependency_links.txt\n'}
+[2.916257] (yyh_object) StdoutLine: {'line': b'writing requirements to ../../build/yyh_object/yyh_object.egg-info/requires.txt\n'}
+[2.919362] (yyh_object) StdoutLine: {'line': b'writing top-level names to ../../build/yyh_object/yyh_object.egg-info/top_level.txt\n'}
+[2.922817] (-) TimerEvent: {}
+[2.941498] (yyh_nav) StdoutLine: {'line': b'copying /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav/__init__.py -> /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav\n'}
+[2.942905] (yyh_nav) StdoutLine: {'line': b'byte-compiling /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav/__init__.py to __init__.cpython-312.pyc\n'}
+[2.943604] (yyh_nav) StdoutLine: {'line': b'running install_data\n'}
+[2.943787] (yyh_nav) StdoutLine: {'line': b'copying resource/yyh_nav -> /home/yyh/ros2_ws/install/yyh_nav/share/ament_index/resource_index/packages\n'}
+[2.944062] (yyh_nav) StdoutLine: {'line': b'copying package.xml -> /home/yyh/ros2_ws/install/yyh_nav/share/yyh_nav\n'}
+[2.944293] (yyh_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.975349] (yyh_nav) StdoutLine: {'line': b"removing '/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.975737] (yyh_nav) StdoutLine: {'line': b'Copying ../../build/yyh_nav/yyh_nav.egg-info to /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info\n'}
+[2.981187] (yyh_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[2.988442] (yyh_object) StdoutLine: {'line': b"reading manifest file '../../build/yyh_object/yyh_object.egg-info/SOURCES.txt'\n"}
+[2.989590] (yyh_object) StdoutLine: {'line': b"writing manifest file '../../build/yyh_object/yyh_object.egg-info/SOURCES.txt'\n"}
+[2.989847] (yyh_object) StdoutLine: {'line': b'running build\n'}
+[2.990019] (yyh_object) StdoutLine: {'line': b'running build_py\n'}
+[2.990183] (yyh_object) StdoutLine: {'line': b'copying yyh_object/__init__.py -> /home/yyh/ros2_ws/build/yyh_object/build/lib/yyh_object\n'}
+[2.990523] (yyh_object) StdoutLine: {'line': b'running install\n'}
+[3.001067] (yyh_object) StdoutLine: {'line': b'running install_lib\n'}
+[3.022923] (-) TimerEvent: {}
+[3.042503] (yyh_object) StdoutLine: {'line': b'copying /home/yyh/ros2_ws/build/yyh_object/build/lib/yyh_object/__init__.py -> /home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object\n'}
+[3.043650] (yyh_object) StdoutLine: {'line': b'byte-compiling /home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object/__init__.py to __init__.cpython-312.pyc\n'}
+[3.044355] (yyh_object) StdoutLine: {'line': b'running install_data\n'}
+[3.044553] (yyh_object) StdoutLine: {'line': b'copying resource/yyh_object -> /home/yyh/ros2_ws/install/yyh_object/share/ament_index/resource_index/packages\n'}
+[3.045236] (yyh_object) StdoutLine: {'line': b'copying package.xml -> /home/yyh/ros2_ws/install/yyh_object/share/yyh_object\n'}
+[3.045597] (yyh_object) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.079041] (yyh_object) StdoutLine: {'line': b"removing '/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.079455] (yyh_object) StdoutLine: {'line': b'Copying ../../build/yyh_object/yyh_object.egg-info to /home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object-0.0.0-py3.12.egg-info\n'}
+[3.080619] (yyh_object) StdoutLine: {'line': b'running install_scripts\n'}
+[3.123033] (-) TimerEvent: {}
+[3.214075] (yyh_nav) StdoutLine: {'line': b"writing list of installed files to '/home/yyh/ros2_ws/build/yyh_nav/install.log'\n"}
+[3.223219] (-) TimerEvent: {}
+[3.324229] (-) TimerEvent: {}
+[3.376030] (yyh_object) StdoutLine: {'line': b"writing list of installed files to '/home/yyh/ros2_ws/build/yyh_object/install.log'\n"}
+[3.381063] (yyh_nav) CommandEnded: {'returncode': 0}
+[3.417989] (yyh_nav) JobEnded: {'identifier': 'yyh_nav', 'rc': 0}
+[3.424531] (-) TimerEvent: {}
+[3.525968] (-) TimerEvent: {}
+[3.562167] (yyh_object) CommandEnded: {'returncode': 0}
+[3.585666] (yyh_object) JobEnded: {'identifier': 'yyh_object', 'rc': 0}
+[3.588637] (-) EventReactorShutdown: {}

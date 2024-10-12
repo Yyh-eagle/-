@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/yyh_nav/yyh_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/yyh_nav/yyh_nav.egg-info/dependency_links.txt
+writing requirements to ../../build/yyh_nav/yyh_nav.egg-info/requires.txt
+writing top-level names to ../../build/yyh_nav/yyh_nav.egg-info/top_level.txt
+reading manifest file '../../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+copying yyh_nav/__init__.py -> /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav
+running install
+running install_lib
+copying /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav/__init__.py -> /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav
+byte-compiling /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying resource/yyh_nav -> /home/yyh/ros2_ws/install/yyh_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/yyh/ros2_ws/install/yyh_nav/share/yyh_nav
+running install_egg_info
+removing '/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/yyh_nav/yyh_nav.egg-info to /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/yyh/ros2_ws/build/yyh_nav/install.log'

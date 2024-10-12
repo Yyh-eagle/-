@@ -1,0 +1,19 @@
+[2.777s] Invoking command in '/home/yyh/ros2_ws/src/yyh_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gongchuang) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yyh/ros2_ws/build/yyh_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yyh_nav build --build-base /home/yyh/ros2_ws/build/yyh_nav/build install --record /home/yyh/ros2_ws/build/yyh_nav/install.log --single-version-externally-managed install_data
+[3.332s] running egg_info
+[3.365s] writing ../../build/yyh_nav/yyh_nav.egg-info/PKG-INFO
+[3.365s] writing dependency_links to ../../build/yyh_nav/yyh_nav.egg-info/dependency_links.txt
+[3.367s] writing requirements to ../../build/yyh_nav/yyh_nav.egg-info/requires.txt
+[3.370s] writing top-level names to ../../build/yyh_nav/yyh_nav.egg-info/top_level.txt
+[3.444s] reading manifest file '../../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+[3.445s] writing manifest file '../../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+[3.445s] running build
+[3.445s] running build_py
+[3.449s] running install
+[3.459s] running install_lib
+[3.492s] running install_data
+[3.492s] running install_egg_info
+[3.538s] removing '/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[3.538s] Copying ../../build/yyh_nav/yyh_nav.egg-info to /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info
+[3.538s] running install_scripts
+[3.809s] writing list of installed files to '/home/yyh/ros2_ws/build/yyh_nav/install.log'
+[4.007s] Invoked command in '/home/yyh/ros2_ws/src/yyh_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gongchuang) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yyh/ros2_ws/build/yyh_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yyh_nav build --build-base /home/yyh/ros2_ws/build/yyh_nav/build install --record /home/yyh/ros2_ws/build/yyh_nav/install.log --single-version-externally-managed install_data

@@ -1,0 +1,2 @@
+[console_scripts]
+usb_pub = yyh_object.usb_pub:main

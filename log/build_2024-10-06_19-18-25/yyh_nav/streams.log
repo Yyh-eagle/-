@@ -1,0 +1,32 @@
+[2.508s] Invoking command in '/home/yyh/ros2_ws/yyh_nav': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gongchuang) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yyh/ros2_ws/build/yyh_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yyh_nav build --build-base /home/yyh/ros2_ws/build/yyh_nav/build install --record /home/yyh/ros2_ws/build/yyh_nav/install.log --single-version-externally-managed install_data
+[2.994s] running egg_info
+[2.995s] creating ../build/yyh_nav/yyh_nav.egg-info
+[3.029s] writing ../build/yyh_nav/yyh_nav.egg-info/PKG-INFO
+[3.030s] writing dependency_links to ../build/yyh_nav/yyh_nav.egg-info/dependency_links.txt
+[3.030s] writing requirements to ../build/yyh_nav/yyh_nav.egg-info/requires.txt
+[3.031s] writing top-level names to ../build/yyh_nav/yyh_nav.egg-info/top_level.txt
+[3.031s] writing manifest file '../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+[3.090s] reading manifest file '../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+[3.092s] writing manifest file '../build/yyh_nav/yyh_nav.egg-info/SOURCES.txt'
+[3.092s] running build
+[3.092s] running build_py
+[3.093s] creating /home/yyh/ros2_ws/build/yyh_nav/build
+[3.093s] creating /home/yyh/ros2_ws/build/yyh_nav/build/lib
+[3.093s] creating /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav
+[3.093s] copying yyh_nav/__init__.py -> /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav
+[3.093s] running install
+[3.104s] running install_lib
+[3.138s] creating /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav
+[3.139s] copying /home/yyh/ros2_ws/build/yyh_nav/build/lib/yyh_nav/__init__.py -> /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav
+[3.139s] byte-compiling /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav/__init__.py to __init__.cpython-312.pyc
+[3.140s] running install_data
+[3.140s] creating /home/yyh/ros2_ws/install/yyh_nav/share/ament_index
+[3.140s] creating /home/yyh/ros2_ws/install/yyh_nav/share/ament_index/resource_index
+[3.140s] creating /home/yyh/ros2_ws/install/yyh_nav/share/ament_index/resource_index/packages
+[3.141s] copying resource/yyh_nav -> /home/yyh/ros2_ws/install/yyh_nav/share/ament_index/resource_index/packages
+[3.141s] copying package.xml -> /home/yyh/ros2_ws/install/yyh_nav/share/yyh_nav
+[3.141s] running install_egg_info
+[3.172s] Copying ../build/yyh_nav/yyh_nav.egg-info to /home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages/yyh_nav-0.0.0-py3.12.egg-info
+[3.174s] running install_scripts
+[3.409s] writing list of installed files to '/home/yyh/ros2_ws/build/yyh_nav/install.log'
+[3.574s] Invoked command in '/home/yyh/ros2_ws/yyh_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(gongchuang) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/yyh/ros2_ws/build/yyh_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_nav/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/yyh_nav build --build-base /home/yyh/ros2_ws/build/yyh_nav/build install --record /home/yyh/ros2_ws/build/yyh_nav/install.log --single-version-externally-managed install_data
