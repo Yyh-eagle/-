@@ -1,0 +1,19 @@
+[2.146s] Invoking command in '/home/yyh/ros2_ws/src/learning_interface': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yyh/ros2_ws/build/learning_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_interface build --build-base /home/yyh/ros2_ws/build/learning_interface/build install --record /home/yyh/ros2_ws/build/learning_interface/install.log --single-version-externally-managed install_data
+[2.548s] running egg_info
+[2.574s] writing ../../build/learning_interface/learning_interface.egg-info/PKG-INFO
+[2.576s] writing dependency_links to ../../build/learning_interface/learning_interface.egg-info/dependency_links.txt
+[2.577s] writing requirements to ../../build/learning_interface/learning_interface.egg-info/requires.txt
+[2.577s] writing top-level names to ../../build/learning_interface/learning_interface.egg-info/top_level.txt
+[2.630s] reading manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+[2.632s] writing manifest file '../../build/learning_interface/learning_interface.egg-info/SOURCES.txt'
+[2.633s] running build
+[2.633s] running build_py
+[2.635s] running install
+[2.643s] running install_lib
+[2.671s] running install_data
+[2.672s] running install_egg_info
+[2.702s] removing '/home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface-0.0.0-py3.12.egg-info' (and everything under it)
+[2.706s] Copying ../../build/learning_interface/learning_interface.egg-info to /home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages/learning_interface-0.0.0-py3.12.egg-info
+[2.706s] running install_scripts
+[2.927s] writing list of installed files to '/home/yyh/ros2_ws/build/learning_interface/install.log'
+[3.068s] Invoked command in '/home/yyh/ros2_ws/src/learning_interface' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yyh/ros2_ws/build/learning_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/learning_interface/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/learning_interface build --build-base /home/yyh/ros2_ws/build/learning_interface/build install --record /home/yyh/ros2_ws/build/learning_interface/install.log --single-version-externally-managed install_data

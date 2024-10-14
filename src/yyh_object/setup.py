@@ -20,7 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'usb_pub= yyh_object.usb_pub:main',
+            'usb_pub = yyh_object.usb_pub:main',
+            'usb_pub2 = yyh_object.usb_pub2:main',
+            'Image_gongchuang = yyh_object.Image_gongchuang:main',
         ],
     },
 )

@@ -1,0 +1,26 @@
+[2.137s] Invoking command in '/home/yyh/ros2_ws/src/yyh_object': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yyh/ros2_ws/build/yyh_object/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yyh_object build --build-base /home/yyh/ros2_ws/build/yyh_object/build install --record /home/yyh/ros2_ws/build/yyh_object/install.log --single-version-externally-managed install_data
+[2.549s] running egg_info
+[2.574s] writing ../../build/yyh_object/yyh_object.egg-info/PKG-INFO
+[2.575s] writing dependency_links to ../../build/yyh_object/yyh_object.egg-info/dependency_links.txt
+[2.575s] writing entry points to ../../build/yyh_object/yyh_object.egg-info/entry_points.txt
+[2.577s] writing requirements to ../../build/yyh_object/yyh_object.egg-info/requires.txt
+[2.579s] writing top-level names to ../../build/yyh_object/yyh_object.egg-info/top_level.txt
+[2.630s] reading manifest file '../../build/yyh_object/yyh_object.egg-info/SOURCES.txt'
+[2.631s] writing manifest file '../../build/yyh_object/yyh_object.egg-info/SOURCES.txt'
+[2.632s] running build
+[2.632s] running build_py
+[2.632s] copying yyh_object/Image_gongchuang.py -> /home/yyh/ros2_ws/build/yyh_object/build/lib/yyh_object
+[2.635s] running install
+[2.643s] running install_lib
+[2.669s] copying /home/yyh/ros2_ws/build/yyh_object/build/lib/yyh_object/Image_gongchuang.py -> /home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object
+[2.670s] byte-compiling /home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object/Image_gongchuang.py to Image_gongchuang.cpython-312.pyc
+[2.674s] running install_data
+[2.675s] running install_egg_info
+[2.706s] removing '/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object-0.0.0-py3.12.egg-info' (and everything under it)
+[2.706s] Copying ../../build/yyh_object/yyh_object.egg-info to /home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages/yyh_object-0.0.0-py3.12.egg-info
+[2.709s] running install_scripts
+[2.923s] Installing Image_gongchuang script to /home/yyh/ros2_ws/install/yyh_object/lib/yyh_object
+[2.923s] Installing usb_pub script to /home/yyh/ros2_ws/install/yyh_object/lib/yyh_object
+[2.923s] Installing usb_pub2 script to /home/yyh/ros2_ws/install/yyh_object/lib/yyh_object
+[2.924s] writing list of installed files to '/home/yyh/ros2_ws/build/yyh_object/install.log'
+[3.062s] Invoked command in '/home/yyh/ros2_ws/src/yyh_object' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yyh/ros2_ws/build/yyh_object/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yyh/ros2_ws/install/yyh_object/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(gongchuang) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yyh_object build --build-base /home/yyh/ros2_ws/build/yyh_object/build install --record /home/yyh/ros2_ws/build/yyh_object/install.log --single-version-externally-managed install_data
